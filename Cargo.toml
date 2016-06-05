@@ -1,5 +1,5 @@
 [package]
-name = "strongbox"
+name = "structbox"
 version = "0.1.0"
 authors = ["Justin LeFebvre <jstnlefebvre@gmail.com>"]
 
