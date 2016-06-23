@@ -3,4 +3,12 @@ name = "structbox"
 version = "0.1.0"
 authors = ["Justin LeFebvre <jstnlefebvre@gmail.com>"]
 
+[lib]
+name = "structbox"
+crate-type = ["dylib"]
+
 [dependencies]
+cpython = "0.0.5"
+libc = "0.2.12"
+linked-hash-map = "0.0.10"
+lru-cache = "0.0.7"
